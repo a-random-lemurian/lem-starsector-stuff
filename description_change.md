@@ -40,7 +40,7 @@ Now, to alter Jangala's description to reflect your invasion of it, run this cod
 SectorEntityToken entityToRename = Global.getSector().getPlayerFleet().getContainingLocation().getEntityById("jangala"); entityToRename.setCustomDescriptionId("jangala_invaded_desc");
 ```
 
-Exit and save your game, exit Starsector and relaunch. Upon relaunch, you'll find that your planet now has a new description!
+Exit and save your game, exit Starsector and relaunch. Upon relaunch, activate your private mod containing the description. Then, launch Starsector and when your game loads, you'll find that your planet now has a new description!
 
 # Giving your save to others
 If you decide to give your save to others, send them the "minimod" with the descriptions. Even without the minimod, the save will still work but the descriptions will just read `No description... yet.`.
